@@ -27,6 +27,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -88,8 +89,6 @@ body * {
   border: 1.5px solid var(--stroke-color-hover);
 }
 
-
-
 #switch span {
   display: block;
   width: 64px;
@@ -100,8 +99,6 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
-
-
 
 /* links */
 ul {
@@ -160,10 +157,20 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background: var(--highlight-color)
+  background: var(--highlight-color);
 }
 footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
