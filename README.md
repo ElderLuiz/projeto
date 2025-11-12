@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevBrand é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://elderluiz.github.io/projeto/)
+- [Acesse o projeto finalizado, online](https://elderluiz.github.io/DevElder.link/)
 
 
 
